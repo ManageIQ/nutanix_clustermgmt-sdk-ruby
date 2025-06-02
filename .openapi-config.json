@@ -1,0 +1,8 @@
+{
+  "gemName": "nutanix_clustermgmt",
+  "gemAuthor": "ManageIQ Developers",
+  "gemSummary": "Nutanix VMM API",
+  "gemDescription": "Ruby gem for Nutanix Cluster Management APIs",
+  "gemLicense": "Apache-2.0",
+  "useAutoload": true
+}
