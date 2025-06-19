@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigEncryptionStatus
     ENABLED = "ENABLED".freeze
     DISABLED = "DISABLED".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [ENABLED, DISABLED, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [ENABLED, DISABLED, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigDriveReplacementOption
     RMA = "RMA".freeze
     CAPACITY_UPGRADE = "CAPACITY_UPGRADE".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [RMA, CAPACITY_UPGRADE, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [RMA, CAPACITY_UPGRADE, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

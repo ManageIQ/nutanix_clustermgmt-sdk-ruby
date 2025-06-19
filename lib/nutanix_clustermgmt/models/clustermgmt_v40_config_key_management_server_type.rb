@@ -18,11 +18,11 @@ module NutanixClustermgmt
     LOCAL = "LOCAL".freeze
     PRISM_CENTRAL = "PRISM_CENTRAL".freeze
     EXTERNAL = "EXTERNAL".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [LOCAL, PRISM_CENTRAL, EXTERNAL, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [LOCAL, PRISM_CENTRAL, EXTERNAL, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

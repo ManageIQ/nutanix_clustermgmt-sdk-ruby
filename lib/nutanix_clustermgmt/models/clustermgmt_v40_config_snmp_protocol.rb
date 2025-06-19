@@ -19,11 +19,11 @@ module NutanixClustermgmt
     UDP6 = "UDP6".freeze
     TCP = "TCP".freeze
     TCP6 = "TCP6".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [UDP, UDP6, TCP, TCP6, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [UDP, UDP6, TCP, TCP6, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigClusterArchReference
     X86_64 = "X86_64".freeze
     PPC64_LE = "PPC64LE".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [X86_64, PPC64_LE, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [X86_64, PPC64_LE, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

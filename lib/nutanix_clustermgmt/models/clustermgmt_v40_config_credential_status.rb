@@ -18,11 +18,11 @@ module NutanixClustermgmt
     VALID = "VALID".freeze
     INVALID = "INVALID".freeze
     UNAVAILABLE = "UNAVAILABLE".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [VALID, INVALID, UNAVAILABLE, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [VALID, INVALID, UNAVAILABLE, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

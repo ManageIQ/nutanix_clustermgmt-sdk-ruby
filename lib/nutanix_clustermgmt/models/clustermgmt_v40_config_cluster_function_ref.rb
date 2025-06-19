@@ -22,11 +22,11 @@ module NutanixClustermgmt
     ONE_NODE = "ONE_NODE".freeze
     TWO_NODE = "TWO_NODE".freeze
     ANALYTICS_PLATFORM = "ANALYTICS_PLATFORM".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [AOS, PRISM_CENTRAL, CLOUD_DATA_GATEWAY, AFS, ONE_NODE, TWO_NODE, ANALYTICS_PLATFORM, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [AOS, PRISM_CENTRAL, CLOUD_DATA_GATEWAY, AFS, ONE_NODE, TWO_NODE, ANALYTICS_PLATFORM, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

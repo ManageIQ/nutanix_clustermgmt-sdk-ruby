@@ -18,11 +18,11 @@ module NutanixClustermgmt
     PCIE_SSD = "PCIE_SSD".freeze
     SATA_SSD = "SATA_SSD".freeze
     HDD = "HDD".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [PCIE_SSD, SATA_SSD, HDD, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [PCIE_SSD, SATA_SSD, HDD, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

@@ -20,11 +20,11 @@ module NutanixClustermgmt
     UVM_ASSIGNED = "UVM_ASSIGNED".freeze
     HOST_BROKEN = "HOST_BROKEN".freeze
     HOST_UNUSED = "HOST_UNUSED".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [UVM_AVAILABLE, UVM_RESERVED, UVM_ASSIGNED, HOST_BROKEN, HOST_UNUSED, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [UVM_AVAILABLE, UVM_RESERVED, UVM_ASSIGNED, HOST_BROKEN, HOST_UNUSED, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

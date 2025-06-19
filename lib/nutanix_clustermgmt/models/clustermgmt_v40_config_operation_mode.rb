@@ -20,11 +20,11 @@ module NutanixClustermgmt
     STAND_ALONE = "STAND_ALONE".freeze
     SWITCH_TO_TWO_NODE = "SWITCH_TO_TWO_NODE".freeze
     OVERRIDE = "OVERRIDE".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [NORMAL, READ_ONLY, STAND_ALONE, SWITCH_TO_TWO_NODE, OVERRIDE, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [NORMAL, READ_ONLY, STAND_ALONE, SWITCH_TO_TWO_NODE, OVERRIDE, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

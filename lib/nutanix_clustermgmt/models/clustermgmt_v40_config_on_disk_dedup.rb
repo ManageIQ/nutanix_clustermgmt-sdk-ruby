@@ -18,11 +18,11 @@ module NutanixClustermgmt
     NONE = "NONE".freeze
     OFF = "OFF".freeze
     POST_PROCESS = "POST_PROCESS".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [NONE, OFF, POST_PROCESS, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [NONE, OFF, POST_PROCESS, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

@@ -20,11 +20,11 @@ module NutanixClustermgmt
     DAS_SATA = "DAS_SATA".freeze
     CLOUD = "CLOUD".freeze
     SSD_MEM_NVME = "SSD_MEM_NVME".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [SSD_PCIE, SSD_SATA, DAS_SATA, CLOUD, SSD_MEM_NVME, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [SSD_PCIE, SSD_SATA, DAS_SATA, CLOUD, SSD_MEM_NVME, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string
