@@ -20,11 +20,11 @@ module NutanixClustermgmt
     IPV4_NETWORK_MASK = "IPV4_NETWORK_MASK".freeze
     DOMAIN_NAME_SUFFIX = "DOMAIN_NAME_SUFFIX".freeze
     HOST_NAME = "HOST_NAME".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [IPV4_ADDRESS, IPV6_ADDRESS, IPV4_NETWORK_MASK, DOMAIN_NAME_SUFFIX, HOST_NAME, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [IPV4_ADDRESS, IPV6_ADDRESS, IPV4_NETWORK_MASK, DOMAIN_NAME_SUFFIX, HOST_NAME, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

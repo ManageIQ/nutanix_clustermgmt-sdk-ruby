@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigPartitionType
     EXT4 = "EXT4".freeze
     XFS = "XFS".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [EXT4, XFS, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [EXT4, XFS, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

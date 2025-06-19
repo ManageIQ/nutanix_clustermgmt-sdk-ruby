@@ -23,11 +23,11 @@ module NutanixClustermgmt
     NOTICE = "NOTICE".freeze
     INFO = "INFO".freeze
     DEBUG = "DEBUG".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

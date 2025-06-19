@@ -18,11 +18,11 @@ module NutanixClustermgmt
     PLAIN = "PLAIN".freeze
     STARTTLS = "STARTTLS".freeze
     SSL = "SSL".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [PLAIN, STARTTLS, SSL, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [PLAIN, STARTTLS, SSL, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

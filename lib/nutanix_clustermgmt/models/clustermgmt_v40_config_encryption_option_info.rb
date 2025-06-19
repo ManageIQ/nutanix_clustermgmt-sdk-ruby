@@ -18,11 +18,11 @@ module NutanixClustermgmt
     SOFTWARE = "SOFTWARE".freeze
     HARDWARE = "HARDWARE".freeze
     SOFTWARE_AND_HARDWARE = "SOFTWARE_AND_HARDWARE".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [SOFTWARE, HARDWARE, SOFTWARE_AND_HARDWARE, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [SOFTWARE, HARDWARE, SOFTWARE_AND_HARDWARE, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string
