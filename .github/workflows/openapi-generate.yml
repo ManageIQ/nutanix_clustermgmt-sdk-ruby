@@ -34,5 +34,7 @@ jobs:
         assignees: agrare
         push-to-fork: miq-bot/nutanix_clustermgmt-sdk-ruby
         title: Update nutanix_clustermgmt gem
-        body: Update the nutanix_clustermgmt-sdk-ruby gem from the nutanix_clustermgmt openapi-spec https://developers.nutanix.com/api/v1/namespaces/clustermgmt/versions/${{ env.INPUT_SPEC_VERSION }}/yaml
+        body: |
+          Update the nutanix_clustermgmt-sdk-ruby gem from the nutanix_clustermgmt openapi-spec:
+          https://developers.nutanix.com/api-reference?namespace=clustermgmt&version=${{ env.INPUT_SPEC_VERSION }}
         token: ${{ secrets.PR_TOKEN }}
