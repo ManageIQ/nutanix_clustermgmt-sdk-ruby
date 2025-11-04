@@ -470,6 +470,7 @@ lib/nutanix_clustermgmt/api/storage_containers_api.rb
 lib/nutanix_clustermgmt/api/vcenter_extensions_api.rb
 lib/nutanix_clustermgmt/api_client.rb
 lib/nutanix_clustermgmt/api_error.rb
+lib/nutanix_clustermgmt/api_model_base.rb
 lib/nutanix_clustermgmt/configuration.rb
 lib/nutanix_clustermgmt/models/add_disk202_response.rb
 lib/nutanix_clustermgmt/models/add_disk4_xx_response.rb
