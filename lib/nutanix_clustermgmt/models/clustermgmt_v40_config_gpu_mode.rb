@@ -18,11 +18,11 @@ module NutanixClustermgmt
     UNUSED = "UNUSED".freeze
     USED_FOR_PASSTHROUGH = "USED_FOR_PASSTHROUGH".freeze
     USED_FOR_VIRTUAL = "USED_FOR_VIRTUAL".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [UNUSED, USED_FOR_PASSTHROUGH, USED_FOR_VIRTUAL, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [UNUSED, USED_FOR_PASSTHROUGH, USED_FOR_VIRTUAL, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

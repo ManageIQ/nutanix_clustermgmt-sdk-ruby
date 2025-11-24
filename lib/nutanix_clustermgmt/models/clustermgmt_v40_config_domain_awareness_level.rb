@@ -19,11 +19,11 @@ module NutanixClustermgmt
     BLOCK = "BLOCK".freeze
     RACK = "RACK".freeze
     DISK = "DISK".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [NODE, BLOCK, RACK, DISK, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [NODE, BLOCK, RACK, DISK, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

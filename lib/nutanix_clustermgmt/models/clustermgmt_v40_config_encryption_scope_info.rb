@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigEncryptionScopeInfo
     CLUSTER = "CLUSTER".freeze
     CONTAINER = "CONTAINER".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [CLUSTER, CONTAINER, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [CLUSTER, CONTAINER, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

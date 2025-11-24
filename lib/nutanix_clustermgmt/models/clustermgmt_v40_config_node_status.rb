@@ -21,11 +21,11 @@ module NutanixClustermgmt
     NEW_NODE = "NEW_NODE".freeze
     TO_BE_PREPROTECTED = "TO_BE_PREPROTECTED".freeze
     PREPROTECTED = "PREPROTECTED".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [NORMAL, TO_BE_REMOVED, OK_TO_BE_REMOVED, NEW_NODE, TO_BE_PREPROTECTED, PREPROTECTED, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [NORMAL, TO_BE_REMOVED, OK_TO_BE_REMOVED, NEW_NODE, TO_BE_PREPROTECTED, PREPROTECTED, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string
