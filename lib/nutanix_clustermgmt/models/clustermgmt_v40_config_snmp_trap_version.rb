@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigSnmpTrapVersion
     V2 = "V2".freeze
     V3 = "V3".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [V2, V3, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [V2, V3, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

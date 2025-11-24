@@ -19,11 +19,11 @@ module NutanixClustermgmt
     CFT_1_N_OR_1_D = "CFT_1N_OR_1D".freeze
     CFT_2_N_OR_2_D = "CFT_2N_OR_2D".freeze
     CFT_1_N_AND_1_D = "CFT_1N_AND_1D".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [CFT_0_N_AND_0_D, CFT_1_N_OR_1_D, CFT_2_N_OR_2_D, CFT_1_N_AND_1_D, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [CFT_0_N_AND_0_D, CFT_1_N_OR_1_D, CFT_2_N_OR_2_D, CFT_1_N_AND_1_D, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

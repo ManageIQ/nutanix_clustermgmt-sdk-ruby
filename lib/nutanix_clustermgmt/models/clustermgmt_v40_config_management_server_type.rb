@@ -16,11 +16,11 @@ require 'time'
 module NutanixClustermgmt
   class ClustermgmtV40ConfigManagementServerType
     VCENTER = "VCENTER".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [VCENTER, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [VCENTER, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

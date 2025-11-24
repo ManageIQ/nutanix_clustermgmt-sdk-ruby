@@ -17,11 +17,11 @@ module NutanixClustermgmt
   class ClustermgmtV40ConfigAcropolisConnectionState
     CONNECTED = "CONNECTED".freeze
     DISCONNECTED = "DISCONNECTED".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [CONNECTED, DISCONNECTED, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [CONNECTED, DISCONNECTED, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string

@@ -21,11 +21,11 @@ module NutanixClustermgmt
     RACKABLE_UNIT = "RACKABLE_UNIT".freeze
     RACK = "RACK".freeze
     CLUSTER = "CLUSTER".freeze
-    _UNKNOWN = "$UNKNOWN".freeze
-    _REDACTED = "$REDACTED".freeze
+    UNKNOWN = "$UNKNOWN".freeze
+    REDACTED = "$REDACTED".freeze
 
     def self.all_vars
-      @all_vars ||= [CUSTOM, DISK, NODE, RACKABLE_UNIT, RACK, CLUSTER, _UNKNOWN, _REDACTED].freeze
+      @all_vars ||= [CUSTOM, DISK, NODE, RACKABLE_UNIT, RACK, CLUSTER, UNKNOWN, REDACTED].freeze
     end
 
     # Builds the enum from string
