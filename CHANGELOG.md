@@ -4,6 +4,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.1] - 2025-11-24
+### Added
+- Add a post-generate script to fix invalid constants ([#18](https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/pull/18))
+
+### Fixed
+- Fix `_UNKNOWN`/`_REDACTED` constants ([#19](https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/pull/19))
+
 ## [0.2.0] - 2025-11-24
 ### Added
 - Add GitHub Action to autogenerate from the openapi spec ([#12](https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/pull/12))
@@ -23,6 +30,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release
 
+[0.2.1]: https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/tree/v0.1.0
