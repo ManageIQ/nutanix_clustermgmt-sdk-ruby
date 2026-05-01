@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-05-01
+### Fixed
+- Drop docs from published gem ([#27](https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/pull/27))
+
 ## [0.2.2] - 2025-11-25
 ### Fixed
 - Fix extra files included in gem build ([#20](https://github.com/ManageIQ/nutanix_clustermgmt-sdk-ruby/pull/20))
